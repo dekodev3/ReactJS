@@ -1,0 +1,17 @@
+.academies_div{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.academy-div{
+    
+    
+    border-left: 1px solid white;;
+    margin: 20px;
+    padding: 10px;
+}
+h2{
+    margin-bottom: 20px;
+    color: rgb(47, 118, 198);
+}
