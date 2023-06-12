@@ -2,6 +2,7 @@ import React from "react";
 import "./Academy.css";
 
 const Academy = ({ academies, name }) => {
+  
   return (
     <div>
       <h2 className="academy-h2">{name}</h2>

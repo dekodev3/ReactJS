@@ -1,26 +1,49 @@
 import "./App.css";
+import Academy_Class_Component from "./Components/Academy_Class_Component/Academy_Class_Component";
 import Academy from "./Components/Academy_Component/Academy";
 import Cards from "./Components/Card_Component/Card";
+import Counter from "./Components/Counter_Component/Counter.jsx";
+
+
 
 function App() {
   const academies = [
     {
-      id: '1',
-      name: 'Seavus Academy',
-      description: 'A leading academy recognized for its cutting-edge programs.',
+      id: "1",
+      name: "Seavus Academy",
+      description:
+        "A leading academy recognized for its cutting-edge programs.",
     },
     {
-      id: '2',
-      name: 'Harvard Academy',
-      description: 'A renowned academy specializing in various disciplines.',
+      id: "2",
+      name: "Harvard Academy",
+      description: "A renowned academy specializing in various disciplines.",
     },
     {
-      id: '3',
-      name: 'Cambridge Academy',
-      description: 'An exceptional academy known for its expertise in science and technology.',
+      id: "3",
+      name: "Cambridge Academy",
+      description:
+        "An exceptional academy known for its expertise in science and technology.",
     },
   ];
- 
+  const academies1 = [
+    {
+      id: "1",
+      name: "Seavus Academy",
+      description: "cc",
+    },
+    {
+      id: "2",
+      name: "Harvard Academy",
+      description: "A renowned academy specializing in various disciplines.",
+    },
+    {
+      id: "3",
+      name: "Cambridge Academy",
+      description:
+        "An exceptional academy known for its expertise in science and technology.",
+    },
+  ];
   return (
     <div className="App">
       <h1>Exercise 1: Functional Component</h1>
@@ -54,10 +77,25 @@ function App() {
       <hr />
       <hr />
       <div className="academies-div">
-      <h1>Exercise 1.5: Functional Component</h1>
-        
-      <Academy academies={academies} name="Academies rendered with React.JS" />
+        <h1>Exercise 1.5: Functional Component</h1>
+
+        <Academy
+          academies={academies}
+          name="Academies rendered with React.JS functionn component!"
+        />
       </div>
+
+      <hr />
+      <h1>Exercise 1.5: BONUS</h1>
+      <Academy_Class_Component
+        name="Seavus"
+        description="A leading academy recognized for its cutting-edge programs."
+      />
+      <br />
+      <br />
+      <hr />
+      <h1>Exercise 2: Class Component and State Management</h1>
+      <Counter/>
     </div>
   );
 }

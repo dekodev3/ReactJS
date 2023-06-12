@@ -3,15 +3,16 @@
     text-align: center;
     justify-content: space-between;
     
+    
 }
 .academy-div{
     
     
-    border-left: 1px solid white;;
+    border-left: 2px solid white;;
     margin: 20px;
     padding: 10px;
 }
 .academy-h2{
     margin-bottom: 20px;
-    color: rgb(47, 118, 198);
+    color: #2f76c6;
 }
