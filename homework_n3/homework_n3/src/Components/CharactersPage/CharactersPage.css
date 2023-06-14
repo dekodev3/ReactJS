@@ -1,0 +1,30 @@
+
+.characters-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .character {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: rgb(177, 187, 203);
+  }
+  .character:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(237, 244, 255);
+  }
+  
+   h2 {
+    margin-top: 0;
+  }
+  
+   p {
+    margin: 10px 0;
+  }
